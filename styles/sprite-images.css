@@ -22,8 +22,9 @@
   }
   .image-cart{
     background: url(../assets/images/SpriteImages/HeaderSprite.png) no-repeat 13px -326px;
-    width: 83px;
-    height: 53px;
+    width: 61px;
+    height: 50px;
+    position: relative;
   }
 
 
@@ -32,7 +33,7 @@
 
 .ratingImage-4Half {
   background: url(/assets/images/SpriteImages/rating.png) no-repeat -388px -199px;
-  width: 205px;
+  width: 96px;
   height: 31px;
   margin-right: 8.5px;
   margin-bottom: 3px;

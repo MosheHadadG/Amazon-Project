@@ -416,6 +416,7 @@ margin-bottom: 10px;
 .addToList{
   padding: 0px 80px;
   margin-top:15px;
+  width: 95%;
   background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
   border: 1px solid;
   border-color: #adb1b8;
