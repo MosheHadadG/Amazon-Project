@@ -1,0 +1,55 @@
+footer {
+  width: 100%;
+  min-height: 200px ;
+  font-family: var(--fontFamilyNormal);
+}
+
+footer .boughtTogether{
+  width: 100%;
+
+}
+
+footer .boughtTogether h3{
+  color: #C60;
+  padding: 5px;
+}
+
+.boughtTogether .images-boughtTogether{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.boughtTogether .images-boughtTogether img{
+  width: 50%;
+  object-fit: cover;
+  
+}
+.images-boughtTogether .TotalPrice-boughtTogether{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btnAdd {
+  width: 60%;
+  background-color: #FFD814;
+  border: 1px solid #FCD200;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btnAdd:hover {
+  background-color: #F7CA00;
+  border-color: #F2C200;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+
+

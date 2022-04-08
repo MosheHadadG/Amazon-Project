@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles/sprite-images.css">
   <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
   <title>Document</title>
 </head>
 
@@ -86,7 +87,7 @@
           </div>
 
           <div class="nav-cart Link-Border-White">
-            <span class="cart-num text-14-bold">0</span>
+            <span id="CartNum" class="cart-num text-14-bold">0</span>
             <div class="image-cart"></div>
             <span class="text-cart text-white-14-bold">Cart</span>
 
@@ -299,8 +300,8 @@
             </select>
           </div>
 
-          <input type="button" class="add-cart text-14" value="Add to Cart" onclick="incNumber()">
-          <input type="button" class="buy-btn text-14" value="Buy Now" onclick="incNumber()">
+          <input type="button" class="add-cart text-14" value="Add to Cart" onclick="AddCart()">
+          <input type="button" class="buy-btn text-14" value="Buy Now" onclick="AddCart()">
           <div class="SecureTransaction">
             <a class="product-link" href="#">
               <img class="secured-img" src="assets/images/SpriteImages/SecureTransaction.png">
@@ -340,8 +341,28 @@
       </div>
     </section>
   </main>
+  <footer>
+    <div class="boughtTogether">
+      <h3>Frequently bought together</h3>
+      <div class="images-boughtTogether">
+        <img src="assets/images/ProductImages/boughtTogether-1.jpg" alt="">
+         <span class="text-14-bold">+</span>
+        <img src="assets/images/ProductImages/boughtTogether-2.jpg" alt="">
+         <span class="text-14-bold">+</span>
+        <img src="assets/images/ProductImages/boughtTogether-3.jpg" alt="">
+        <div class="TotalPrice-boughtTogether">
+          <span class="text-gray-14-dark">Total price: <span class="product-price-14">$150.20</span></span>
+          <input type="button" class="btnAdd text-14" value="Add all three to Cart">
+        </div>
+        
+
+      </div>
+    </div>
+  
+  </footer>
 
 <script src="script/LeftSideGallery.js"></script>
+<script src="script/addCart.js"></script>
 </body>
 
 </html>
