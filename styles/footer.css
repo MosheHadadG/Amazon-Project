@@ -1,17 +1,19 @@
+
+/* Footer */
 footer {
   width: 100%;
   min-height: 200px ;
   font-family: var(--fontFamilyNormal);
 }
+.h3Bottom {
+  color: #C60;
+  padding: 5px;
+}
 
+/* bought Together */
 footer .boughtTogether{
   width: 100%;
 
-}
-
-footer .boughtTogether h3{
-  color: #C60;
-  padding: 5px;
 }
 
 .boughtTogether .images-boughtTogether{
@@ -66,6 +68,66 @@ footer .boughtTogether h3{
   margin-top: 10px;
   align-items: center;
 }
+
+.borderBottom {
+  width: 100%;
+  border-bottom: 2px solid var(--color-Border );
+}
+
+/* Gallery Bottom */
+
+.GalleryBottom {
+  width: 100%;
+}
+
+.GalleryBottom .BoxesGallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 10px;
+  margin: auto;
+}
+.BoxesGallery .BoxGallery {
+  display: flex;
+  flex-direction: column;
+  height: 376px;
+
+}
+.BoxGallery .ImgBottomGallery {
+  width: 100%;
+  height: 60%;
+}
+.BoxGallery img{
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+
+/* Buttons */
+.BtnBottomGallery {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btnBottom {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  border: 1px solid #D5D9D9;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btnBottom:hover {
+  background-color: #D5D9D9;
+  border-color: #D5D9D9;
+}
+
+
 
 
 

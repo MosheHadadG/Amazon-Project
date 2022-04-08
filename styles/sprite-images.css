@@ -46,3 +46,15 @@
   height: 21px;
 }
 
+/*previous & next Button */
+.previousBtn {
+  background: url(/assets/images/SpriteImages/f9Cwl2OUDVHGXk8.png) no-repeat -166px -174px;
+  width: 33px;
+  height: 21px;
+}
+
+.nextBtn {
+  background: url(/assets/images/SpriteImages/f9Cwl2OUDVHGXk8.png) no-repeat -195px -174px;
+  width: 33px;
+  height: 21px;
+}
