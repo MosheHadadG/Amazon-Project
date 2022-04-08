@@ -39,6 +39,14 @@
   margin-bottom: 3px;
 } 
 
+.ratingImage-4HalfBottom {
+  background: url(/assets/images/SpriteImages/rating.png) no-repeat -388px -199px;
+  width: 98px;
+  height: 37px;
+  margin-right: 8.5px;
+  margin-bottom: 3px;
+} 
+
 /* Sprite alert icon*/
 .alertIcon {
   background: url(/assets/images/SpriteImages/rating.png) no-repeat -411px -28px;
