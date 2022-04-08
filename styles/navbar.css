@@ -1,0 +1,154 @@
+/* Border link white*/
+.Link-Border-White {
+  border: 1px solid transparent;
+}
+
+.Link-Border-White:hover {
+  border: 1px solid var(--color-White);
+  
+}
+
+/* Navbar ==============================*/
+
+#Navbar {
+  width: 100%;
+  min-height: 80px;
+}
+
+/* Navbar Top */
+
+
+#Navbar #NavbarTop {
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-NavbarTop);
+  display: flex;
+}
+
+/* Left Side */
+
+#Navbar #NavbarTop .nav-left {
+  width: 15%;
+  height: 100%;
+  display: flex;
+}
+
+.nav-deliver-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+/* Center */
+/* Serach */
+.nav-fill {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.nav-fill .nav-select-options{
+  width: 5%; 
+
+}
+.nav-fill .nav-select-options .nav-select{
+  width: 100%;
+  background-color: #EBEDF0;
+  height: 40px;
+  border-bottom-left-radius: 5px;
+}
+
+.nav-fill .nav-search{
+  width: 88%;
+}
+
+.nav-fill .nav-search .search-input{
+  width: 100%;
+  height: 34px;
+
+}
+
+.nav-fill .nav-search-btn {
+  background-color: var(--color-Orange);
+  width: 4.5%;
+  height: 40px;
+  cursor: pointer;
+  border-bottom-right-radius: 5px;
+}
+
+.nav-fill .nav-search-btn:hover {
+  background-color: var(--color-OrangeDark);
+}
+
+/* Right Side */
+
+/* Flags */
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+
+.nav-right .nav-flag {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-right .nav-sign-in {
+  width: 38%;
+  padding-left: 15px;
+
+}
+
+.nav-right .nav-cart{
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 28%;
+}
+.nav-right .nav-cart .cart-num{
+  color: var(--color-OrangeText);
+  position: absolute;
+  top: 8px;
+  right: 37px;
+}
+.nav-right .nav-cart .text-cart{
+  position: absolute;
+  bottom: 7px;
+  left: 57px;
+}
+
+/* Sub Navbar ===========================*/
+#SubNavbar {
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-SubNavbar);
+ 
+}
+
+#SubNavbar .links-sub-navbar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
+
+#SubNavbar .links-sub-navbar li{
+  height: 100%;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+

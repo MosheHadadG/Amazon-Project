@@ -1,0 +1,39 @@
+/* Sprite Images Navbar*/
+
+.image-logo{
+  background: url(../assets/images/SpriteImages/HeaderSprite.png) no-repeat 9px -34px;
+  width: 130px;
+  height: 49px;
+  }
+  .image-deliver-location {
+  background: url(../assets/images/SpriteImages/HeaderSprite.png) no-repeat -68px -284px;
+  width: 21px;
+  height: 48px;
+  }
+  .image-search-button {
+    background: url(../assets/images/SpriteImages/HeaderSprite.png) no-repeat 0px -283px;
+    width: 40px;
+    height: 35px;
+    }
+  .image-flags {
+    background: url(../assets/images/SpriteImages/flags.png) no-repeat -55px -109px;
+    width: 17px;
+    height: 10px;
+  }
+  .image-cart{
+    background: url(../assets/images/SpriteImages/HeaderSprite.png) no-repeat 13px -326px;
+    width: 83px;
+    height: 53px;
+  }
+
+
+
+/* Sprite Images Rating */
+
+.ratingImage-4Half {
+  background: url(/assets/images/SpriteImages/rating.png) no-repeat -388px -199px;
+  width: 205px;
+  height: 31px;
+  margin-right: 8.5px;
+  margin-bottom: 3px;
+}
