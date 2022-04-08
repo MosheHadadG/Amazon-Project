@@ -65,3 +65,9 @@ font-family: var(--fontFamilyNormal);
 font-size: 14px;
 line-height: 20px;
 }
+
+.text-12 {
+  font-family: var(--fontFamilyNormal);
+  font-size: 12px;
+  line-height: 20px;
+  }

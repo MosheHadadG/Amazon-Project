@@ -117,12 +117,18 @@
     <section id="BoxProduct">
       <div class="LeftSideGallery">
         <div class="SmallImagesGallery">
-          <span><img id="imgSmall-1" onmouseover="changeImage('assets/images/ProductImages/big-1.jpg', 1)" src="assets/images/ProductImages/small-1.jpg" alt=""></span>
-          <span><img id="imgSmall-2" onmouseover="changeImage('assets/images/ProductImages/big-2.jpg', 2)" src="assets/images/ProductImages/small-2.jpg" alt=""></span>
-          <span><img id="imgSmall-3" onmouseover="changeImage('assets/images/ProductImages/big-3.jpg', 3)" src="assets/images/ProductImages/small-3.jpg" alt=""></span>
-          <span><img id="imgSmall-4" onmouseover="changeImage('assets/images/ProductImages/big-4.jpg', 4)" src="assets/images/ProductImages/small-4.jpg" alt=""></span>
-          <span><img id="imgSmall-5" onmouseover="changeImage('assets/images/ProductImages/big-5.jpg', 5)" src="assets/images/ProductImages/small-5.jpg" alt=""></span>
-          <span><img id="imgSmall-6" onmouseover="changeImage('assets/images/ProductImages/big-6.jpg', 6)" src="assets/images/ProductImages/small-6.jpg" alt=""></span>
+          <span><img id="imgSmall-1" onmouseover="changeImage('assets/images/ProductImages/big-1.jpg', 1)"
+              src="assets/images/ProductImages/small-1.jpg" alt=""></span>
+          <span><img id="imgSmall-2" onmouseover="changeImage('assets/images/ProductImages/big-2.jpg', 2)"
+              src="assets/images/ProductImages/small-2.jpg" alt=""></span>
+          <span><img id="imgSmall-3" onmouseover="changeImage('assets/images/ProductImages/big-3.jpg', 3)"
+              src="assets/images/ProductImages/small-3.jpg" alt=""></span>
+          <span><img id="imgSmall-4" onmouseover="changeImage('assets/images/ProductImages/big-4.jpg', 4)"
+              src="assets/images/ProductImages/small-4.jpg" alt=""></span>
+          <span><img id="imgSmall-5" onmouseover="changeImage('assets/images/ProductImages/big-5.jpg', 5)"
+              src="assets/images/ProductImages/small-5.jpg" alt=""></span>
+          <span><img id="imgSmall-6" onmouseover="changeImage('assets/images/ProductImages/big-6.jpg', 6)"
+              src="assets/images/ProductImages/small-6.jpg" alt=""></span>
         </div>
         <div class="BigImages">
           <img id="BigImg" src="assets/images/ProductImages/big-1.jpg" alt="">
@@ -164,14 +170,14 @@
             <p class="text-gray-14-dark">Color: <span id="ColorId" class="text-14-bold"></span></p>
           </div>
           <div class="productColorBoxes">
-              <div class="boxColor" onmouseover="checkColor(1)">
-                <div class="imgColor">
-                  <img src="assets/images/ProductImages/color-img-1.jpg" alt="">
-                </div>
-                <div class="priceColor">
-                  <p>$128.95<br>(128.95 / Count)</p>
-                </div>
+            <div class="boxColor" onmouseover="checkColor(1)">
+              <div class="imgColor">
+                <img src="assets/images/ProductImages/color-img-1.jpg" alt="">
               </div>
+              <div class="priceColor">
+                <p>$128.95<br>(128.95 / Count)</p>
+              </div>
+            </div>
             <div class="boxColor" onmouseover="checkColor(2)">
               <div class="imgColor">
                 <img src="assets/images/ProductImages/color-img-2.jpg" alt="">
@@ -346,23 +352,42 @@
       <h3>Frequently bought together</h3>
       <div class="images-boughtTogether">
         <img src="assets/images/ProductImages/boughtTogether-1.jpg" alt="">
-         <span class="text-14-bold">+</span>
+        <span class="text-14-bold">+</span>
         <img src="assets/images/ProductImages/boughtTogether-2.jpg" alt="">
-         <span class="text-14-bold">+</span>
+        <span class="text-14-bold">+</span>
         <img src="assets/images/ProductImages/boughtTogether-3.jpg" alt="">
         <div class="TotalPrice-boughtTogether">
           <span class="text-gray-14-dark">Total price: <span class="product-price-14">$150.20</span></span>
           <input type="button" class="btnAdd text-14" value="Add all three to Cart">
         </div>
-        
-
       </div>
+      <div class="Links-boughtTogether">
+        <div class="alertIconText">
+          <div class="alertIcon"></div>
+          <p class="text-12">These items are shipped from and sold by different sellers. <a href="#"
+              class="product-link">Show details</a></p>
+        </div>
+        <div class="LinksCheckbox">
+          <input type="checkbox" checked="true"><strong> This item:</strong><a class="product-link" href="#"> Fitbit Charge 5 Advanced
+            Fitness, Health Tracker
+            with Built-in GPS, Stress Management Tools, Sleep Track..
+          </a><span class="product-price-14"> $129.95 ($128.95 / Count)</span><br>
+          <input type="checkbox" checked="true"><a class="product-link" href="#"> NANW 3-Pack Screen Protector Compatible with Fitbit
+            Charge 5 (Not for Charge 4/3), TPU Rugged Bumper Case Co..
+          </a><span class="product-price-14"> $7.30</span><br>
+          <input type="checkbox" checked="true"><a class="product-link" href="#"> CAVN Charger Dock Compatible with Fitbit Charge 5 /
+            Luxe, Replacement Aluminum Charging Stand Dock Station B..
+          </a><span class="product-price-14"> $13.95</span>
+        </div>
+      </div>
+
+
     </div>
-  
+
   </footer>
 
-<script src="script/LeftSideGallery.js"></script>
-<script src="script/mainScript.js"></script>
+  <script src="script/LeftSideGallery.js"></script>
+  <script src="script/mainScript.js"></script>
 </body>
 
 </html>

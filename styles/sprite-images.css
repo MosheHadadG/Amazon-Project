@@ -36,4 +36,12 @@
   height: 31px;
   margin-right: 8.5px;
   margin-bottom: 3px;
+} 
+
+/* Sprite alert icon*/
+.alertIcon {
+  background: url(/assets/images/SpriteImages/rating.png) no-repeat -411px -28px;
+  width: 22px;
+  height: 21px;
 }
+

@@ -52,4 +52,21 @@ footer .boughtTogether h3{
 }
 
 
+.Links-boughtTogether {
+  width: 65%;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 5px;
+  
+}
+
+.Links-boughtTogether .alertIconText {
+  display: flex;
+  width: 60%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+
+
 
