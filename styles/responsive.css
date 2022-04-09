@@ -1,0 +1,158 @@
+@media(max-width: 1500px) {
+  .nav-orders,
+  .nav-sign-in,
+  .nav-deliver-location {
+    display: none;
+  }
+
+  #ProductInfo .productTitle {
+    font-size: 20px;
+    
+    
+  }
+
+  .GalleryBottom .BoxesGallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media(max-width: 1200px) {
+  /* Gallery Product */
+  #BoxProduct .LeftSideGallery {
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Info Product ======================= */
+  #ProductInfo { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .ProductInfoBox-1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .ProductInfoBox-1 .BoxRating { 
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textRating {
+    justify-content: center;
+    width: 85%;
+  }
+  .productColorBoxes {
+    justify-content: center;
+  }
+  .ProductInfoBox-3 {
+    width: 100%;
+    justify-content: center;
+  }
+  .ProductInfoBox-3 .productCatefories {
+    width: 50%;
+    padding: unset;
+  }
+  .ProductInfoBox-3 .productCatefories-Info {
+    width: 50%;
+    margin: unset;
+  }
+  .ProductInfoBox-4 {
+    text-align: center;
+  }
+  .ProductInfoBox-4 .productAbout-Info {
+    padding: unset;
+    margin-left: 35px;
+    
+  }
+
+  /* Order Product =========================*/
+  #RightSideOrder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+  }
+  .checkbox-gift .checkbox-text {
+    margin-top: unset;
+    justify-content: center;
+  }
+  .Links-boughtTogether {
+    width: 75%;
+  }
+
+  .Links-boughtTogether .alertIconText {
+    width: 100%;
+  }
+  #ProductInfo .productTitle {
+    font-size: 16px;
+
+  }
+
+  
+  /* Navbar ======================== */
+  #SubNavbar .text-white-14 {
+    font-size: 12px;
+  
+  }
+  .nav-fill {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-fill .nav-search {
+    width: 60%;
+  }
+  .nav-fill .nav-search-btn {
+    width: 8.5%;
+  }
+
+  /* Gallery Bottom ================= */
+
+  .GalleryBottom .BoxesGallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .BoxGallery img {
+    object-fit: contain;
+  }
+
+  .product-link {
+    font-size: 12px;
+  }
+  .priceColor {
+    font-size: 10px;
+  }
+
+}
+
+@media(max-width: 570px) {
+  #SubNavbar .links-sub-navbar .Gift,
+  #SubNavbar .links-sub-navbar .Sell,
+  #SubNavbar .links-sub-navbar .Local {
+    display: none;
+  }
+
+
+
+
+/* Gallery Bottom ================= */
+
+ .GalleryBottom .BoxesGallery {
+      grid-template-columns: 1fr;
+}
+.BoxesGallery .BoxGallery {
+  align-items: center;
+}
+.BoxGallery img {
+  object-fit: contain;
+}
+.nameProduct {
+  width: 60%;
+}
+
+}
