@@ -138,6 +138,16 @@
   }
 
 
+  /* Bought Together Bottom*/
+  footer .boughtTogether {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  }
+  .boughtTogether .images-boughtTogether {
+    flex-direction: column;
+  }
 
 
 /* Gallery Bottom ================= */
