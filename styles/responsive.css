@@ -131,6 +131,14 @@
 }
 
 @media(max-width: 570px) {
+  /* NAVBAR */
+  .nav-right .nav-flag {
+    display: none;
+  }
+  .nav-fill {
+    justify-content: flex-end;
+    width: 57%;
+  }
   #SubNavbar .links-sub-navbar .Gift,
   #SubNavbar .links-sub-navbar .Sell,
   #SubNavbar .links-sub-navbar .Local {
